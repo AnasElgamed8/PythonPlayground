@@ -8,6 +8,8 @@ def main(): #now the code is containerized, not run directly by running the file
  
         subprocess.call("clear")
 
+        subprocess.call("date")
+
         print(f"usage: {ps.cpu_percent()}%")
 
         print(f"frequency: {ps.cpu_freq(percpu=False)}")
