@@ -28,4 +28,4 @@ with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
             time.sleep(0.2)
             hand.press(key=keyboard.Key.space)
             hand.release(key=keyboard.Key.space)
-    listener.join()h
+    listener.join()
